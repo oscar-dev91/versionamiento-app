@@ -1,6 +1,7 @@
 {
   "name": "versionamiento-app",
   "private": true,
+  "homepage": "https://oscar-dev91.github.io/versionamientoApp/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
