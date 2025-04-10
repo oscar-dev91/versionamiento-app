@@ -11,17 +11,17 @@ function App() {
         <nav className="bg-blue-700 text-white p-4 shadow-md">
           <ul className="flex space-x-4">
             <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/diferencias">Diferencias</Link></li>
-            <li><Link to="/sistemas">Sistemas Remotos</Link></li>
-            <li><Link to="/herramientas">Herramientas</Link></li>
+            <li><Link to="./diferencias">Diferencias</Link></li>
+            <li><Link to="./sistemas">Sistemas Remotos</Link></li>
+            <li><Link to="./herramientas">Herramientas</Link></li>
           </ul>
         </nav>
         <main className="p-6">
           <Routes>
             <Route path="/" element={<Inicio />} />
-            <Route path="/diferencias" element={<DiferenciaVersiones />} />
-            <Route path="/sistemas" element={<SistemasRemotos />} />
-            <Route path="/herramientas" element={<HerramientasVersionamiento />} />
+            <Route path="./diferencias" element={<DiferenciaVersiones />} />
+            <Route path="./sistemas" element={<SistemasRemotos />} />
+            <Route path="./herramientas" element={<HerramientasVersionamiento />} />
           </Routes>
         </main>
       </div>
